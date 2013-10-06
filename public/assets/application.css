@@ -233,7 +233,11 @@ div.field, div.actions {
   margin-top: 0.5em;
   margin-bottom: 0.8em;
 }
-/* line 43, ../../app/assets/stylesheets/store.css.scss */
+/* line 42, ../../app/assets/stylesheets/store.css.scss */
+.store .entry p form, .store .entry p div, .store .entry div.price_line form, .store .entry div.price_line div {
+  display: inline;
+}
+/* line 47, ../../app/assets/stylesheets/store.css.scss */
 .store .entry .price {
   color: #44a;
   font-weight: bold;
